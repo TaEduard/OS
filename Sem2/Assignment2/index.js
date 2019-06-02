@@ -1,8 +1,7 @@
 const utils = require('./utils')
 const fs = require('fs')
 const encrpytion = require('./encrpytion')
-const LZString = require('lzjs')
-var SnappyJS = require('snappyjs')
+const SnappyJS = require('snappyjs')
 password = 'wzZfI5C3cfs3uhGPnV1GX7YtzX3lgPtu'
 
 let args = utils.minimist(process.argv.slice(2), {

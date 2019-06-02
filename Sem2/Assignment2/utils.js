@@ -21,7 +21,7 @@ const mandatoryIfPopulated = (mandatArgs, args) => {
 }
 const helpMessage = (filename) => {
   console.log(`
-  Usage: minitool -f path/to/file -x -r -p oneGoodPassword
+  Usage: ./minitool -f path/to/file -x -r -p oneGoodPassword
   
   Mandatory:
   -f                       file
@@ -36,6 +36,7 @@ const helpMessage = (filename) => {
   -r                       remove initial file after operation
   -p                       password
 
+						Created by TaEduard
 `)
   return 0
 }
