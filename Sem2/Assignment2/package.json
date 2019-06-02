@@ -1,0 +1,14 @@
+{
+  "name": "os2secondproject",
+  "version": "1.0.0",
+  "description": "This is a 'small' project.",
+  "main": "index.js",
+  "author": "Tamsa Eduard",
+  "license": "MIT",
+  "repository": "github:TaEduard/OS",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "minimist": "^1.2.0",
+    "snappyjs": "^0.6.0"
+  }
+}
